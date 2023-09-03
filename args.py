@@ -4,8 +4,8 @@ import json
 
 parser = argparse.ArgumentParser(description='DMKD')
 parser.add_argument('--Train', default=True, help='train or test', type=bool)
-parser.add_argument('--Config', default='./config/JAGH_MIRFlickr.json', help='Configure path JAGH_MIRFlickr.json or JAGH_NUSWIDE or JAGH_MSCOCO', type=str)
-parser.add_argument('--Dataset', default='MIRFlickr', help='MIRFlickr or NUSWIDE or MSCOCO', type=str)
+parser.add_argument('--Config', default='./config/MIRFlickr.json', help='Configure path MIRFlickr.json or NUSWIDE', type=str)
+parser.add_argument('--Dataset', default='MIRFlickr', help='MIRFlickr or NUSWIDE', type=str)
 # parser.add_argument('--Checkpoint', default='MIRFlickr_BIT_128.pth', help='checkpoint name', type=str)
 # parser.add_argument('--Bit', default=128, help='hash bit', type=int)
 
