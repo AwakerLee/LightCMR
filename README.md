@@ -1,5 +1,4 @@
-# CAGAN
-CLIP-based Adaptive Graph Attention Network for unsupervised cross-modal hashing retrieval.
+# LightCMR
 
 More details will be updated soon.
 
@@ -7,7 +6,6 @@ More details will be updated soon.
 Please, install the following packages:
 
 - python == 3.x 
-- CLIP
 - pytorch
 - torchvision
 - h5py
